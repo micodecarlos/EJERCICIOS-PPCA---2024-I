@@ -4,15 +4,18 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main() {
     int a, b;
     
-    std::cout << "Ingrese dos numeros enteros: ";
-    std::cin >> a >> b;
+    cout << "Ingrese dos numeros enteros: ";
+    cin >> a >> b;
     
     int suma = a + b;
     
-    std::cout << "La suma de los dos numeros es: " << suma << std::endl;
+    cout << "La suma de los dos numeros es: " << suma << endl;
     
     return 0;
 }
+
