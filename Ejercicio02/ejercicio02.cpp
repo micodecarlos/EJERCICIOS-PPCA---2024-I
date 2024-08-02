@@ -1,5 +1,8 @@
 // ESTUDIANTE: CARLOS APAZA FLORES
 
+/* Dado una matriz cuadrada de nxn, escribe una funcion que rote
+la matriz 90 grados en sentido horario y devuelve la matriz*/
+
 #include <iostream>
 #include <vector>
 
