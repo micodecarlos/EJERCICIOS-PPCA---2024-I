@@ -5,11 +5,13 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main() {
     int num1, num2, num3;
     
-    std::cout << "Ingrese tres numeros enteros: ";
-    std::cin >> num1 >> num2 >> num3;
+    cout << "Ingrese tres numeros enteros: ";
+    cin >> num1 >> num2 >> num3;
     
     int mayor = num1;
     
@@ -21,7 +23,8 @@ int main() {
         mayor = num3;
     }
     
-    std::cout << "El mayor de los tres numeros es: " << mayor << std::endl;
+    cout << "El mayor de los tres numeros es: " << mayor << endl;
     
     return 0;
 }
+
