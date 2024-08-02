@@ -1,5 +1,8 @@
 // ESTUDIANTE: CARLOS APAZA FLORES
 
+/* Escriba una funcion que tome un arreglo de enteros y un numero "k",
+y determine si esxisten los numeros en el arreglo cuya suma sea igual a k*/
+
 #include <iostream>
 #include <unordered_set>
 #include <vector>
